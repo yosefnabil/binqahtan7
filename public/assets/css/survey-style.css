@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+h2,h1,h3,h4,h5,p,title{
+    font-family: 'Tajawal', sans-serif;
+}
+body{
+    /* margin: auto; */
+    direction: rtl;
+    font-family: 'Tajawal', sans-serif;
+}
+form{
+      font-family: 'Tajawal', sans-serif;
+}
+
+button{
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+.subject{
+    height: 60px;
+    width: 100%;
+    background-color: #C8B880;
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    right: 0;
+    text-align: center;
+    display: initial;
+    margin-bottom: 40px;
+      font-family: 'Tajawal', sans-serif;
+}
+
+.box{
+    background-color: #C8B880;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3px;
+    margin-top: 4px;
+    cursor: pointer;
+    font-family: 'Tajawal', sans-serif;
+
+}
+
+.btn-show{
+    background-color: white;
+    height: 1.4rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 18px;
+      font-family: 'Tajawal', sans-serif;
+}
+
+/* .btn-show:: */
+.container{
+    display: none;
+}
+.container label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 15px;
+      font-family: 'Tajawal', sans-serif;
+}
+
+.container input, select{
+    height: 40px;
+    width: 95%;
+    border: solid 1px #e4e2e6e3;
+    border-radius: 10px;
+    padding: 0 10px;
+    font-size: 18px;
+      font-family: 'Tajawal', sans-serif;
+}
+.container select{
+    width: 96%;
+}
+::placeholder{
+    color: #e4e2e6;
+}
+
+select:invalid{
+    color: #e4e2e6;
+}
+
+#cr-attachment{
+    border: none;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit{
+    /* width: 20%; */
+    background-color: #e8e5e0;
+    /* font-size: 1rem; */
+    border: solid 3px rgb(203, 203, 203);
+    border-radius: 3px;
+      font-family: 'Tajawal', sans-serif;
+}
+
+#submit:hover{
+    background-color: rgba(0, 0, 0, 0.2);   
+}
+
+.btn-add{
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: #1da1f2;
+}
+
+dialog{
+    height: 40%;
+    width: 90%;
+    border: solid 2px #9b9a9ee3;
+    overflow-x: auto;
+      font-family: 'Tajawal', sans-serif;
+}
+
+dialog button{
+    font-size: x-large;
+    margin: 10px;
+      font-family: 'Tajawal', sans-serif;
+}
+
+table, tr, th, td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    text-align: center;
+    font-family: 'Tajawal', sans-serif;
+}
+table{
+    width: 100%;
+      font-family: 'Tajawal', sans-serif;
+}
+tr{
+    height: 3vh;
+}
+
+.details-box{
+    padding: 5px;
+}
+.border{
+    border: solid 1px gray;
+}
+.required-fields{
+    color: red !important;
+    font-size: 2px;
+    font-weight: 900;
+      font-family: 'Tajawal', sans-serif;
+}
+select option {
+  color: #000000;
+}
+
+/* .container select{
+    height: 40px;
+    width: 95%;
+
+} */
+
+
